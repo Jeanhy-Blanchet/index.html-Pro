@@ -1,21 +1,26 @@
-body{
-    background-color: black;
+/* Write your code here: */
+h1,h2 {
+    color:blueviolet ;
 }
-h1{
-    text-transform: uppercase;
-    font-size: 3rem;
+/* child */
+.box > p {
+    color: firebrick;
 }
-.poster{
 
-width: 50%;
-margin-left: 25%;
-margin-top: 100%;
-color: white;
-font-family:"Libre Baskerville", serif;
-text-align: center;
+/* Descendant */
+.box li {
+    color: blue;
 }
-.motivation-img{
-border: 5px solid white;
-width: 100%;
 
+/*chained */
+
+li.done{
+   color: green; 
 }
+
+/*Multiple combiners*/
+
+ul p.done {
+    font-size: 0.5rem;
+}
+
