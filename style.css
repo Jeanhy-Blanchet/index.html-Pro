@@ -1,26 +1,25 @@
-/* Write your code here: */
-h1,h2 {
-    color:blueviolet ;
-}
-/* child */
-.box > p {
-    color: firebrick;
+#red{
+color: red;
 }
 
-/* Descendant */
-.box li {
+#blue {
     color: blue;
 }
-
-/*chained */
-
-li.done{
-   color: green; 
+#orange{
+    color: orange;
+}
+#green {
+    color: green;
 }
 
-/*Multiple combiners*/
-
-ul p.done {
-    font-size: 0.5rem;
+#yellow{
+    color: yellow;
 }
 
+.color-title{
+    font-weight: normal;
+}
+img{
+    height:200px;
+    width: 200px;
+}
